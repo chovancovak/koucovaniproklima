@@ -1,0 +1,20 @@
+body {
+  padding: 200px;
+}
+
+h1 {
+  color: green;
+  font-size: 50px;
+}
+
+h2 {
+  color: violet;
+}
+
+h3 {
+  color: green;
+}
+
+.menuBox {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */
