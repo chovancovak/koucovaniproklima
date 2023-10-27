@@ -1,17 +1,24 @@
 body{
-    padding: 200px;
+    background-color: $primary-c;
+    margin: 0;
+    min-width: 260px;
+}
+
+
+
+.p_base{
+    color: white;
+}
+
+.margins_div{
+    padding: 0 $pad-mobile;
+
+    @media screen and (min-width: $tablet-size){
+        padding: 0 $pad-tablet;
+    }
+
+    @media screen and (min-width: $PC-size){
+        padding: 0 $pad-PC;
+    }
     
 }
-
-h1{
-    color: green;
-    font-size: 50px;
-}
-
-h2{
-    color: violet;
-}
-
-h3{
-    color: green;
-} 

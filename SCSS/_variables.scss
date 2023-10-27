@@ -1,1 +1,28 @@
-$primary-c: #0088;
+*, :after, :before { box-sizing: border-box; }
+
+//barvy
+$primary-c: #133342;
+$secondary-c: #81c7e1;
+$tertiary-c: #e0a006 ; /*žlutá*/
+$quaternary-c: #ffffff; /*bílá */
+$quinary-c: #e0cfa7; /* žlutá - myšl. mapa a odkazy v blogu */
+
+
+$senary-c: #849060; /*mechově zelená – pro myšlenkovou mapu*/
+$septenary-c: #4A4146; /*nadpis H3*/
+
+//zaoblení u tabulek - obrázků
+$radius_table: 5px;
+
+//pro responzivní web - velikosti pro tablet a PC
+$tablet-size: 720px;
+$PC-size: 1250px;
+
+//minimální a maximální šířka stránky
+$min-width:320px;
+$max-width:1700px;
+
+//odsazení podle velikosti zobrazení stránky (PC, tablet, mobil)
+$pad-PC: 180px;
+$pad-tablet: 120px;
+$pad-mobile: 20px;
