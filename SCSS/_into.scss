@@ -11,23 +11,37 @@
     }
 }
 
+.div_backqround{
+    background-color: $tertiary-c;
+    max-width: 700px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#intro_text{
+    font-size: 22px;
+    text-align: justify;
+}
+
 .intro_div_onekouc{
     margin-top: 20px;
+    margin-bottom: 20px;
    
 }
 
 .into_div_onekouc_name{
-    color: $tertiary-c;
+    color: $quaternary-c;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
-    margin-left: 50px;
+    text-align: center;
    
 }
 
 .foto_kouc_circle{
     border-radius: 50%;
-    border: 2px solid $quinary-c;
+    border: 2px solid $quaternary-c;
     max-width: 150px;
     display: block;
     margin-right: auto;
@@ -43,9 +57,14 @@
 
 .into_div_onekouc_web{
     color: $quinary-c;
+    
     text-decoration: none;
     display: block;
     text-align: end;
     margin-right: 50px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.into_div_onekouc_web:hover{
+    color: $tertiary-c;
 }

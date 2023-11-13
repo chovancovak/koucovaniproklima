@@ -16,6 +16,7 @@ body {
 
 .p_base {
   color: white;
+  margin: 0;
 }
 
 .margins_div {
@@ -32,6 +33,13 @@ body {
   }
 }
 
+@media screen and (min-width: 1250px) {
+  #header_flex {
+    display: flex;
+    align-items: center;
+  }
+}
+
 header {
   background-color: #ffffff;
   margin: 0;
@@ -39,25 +47,33 @@ header {
 }
 
 .logo {
-  width: 200px;
   max-width: 250px;
 }
 @media screen and (min-width: 720px) {
   .logo {
-    width: 300px;
+    max-width: 300px;
   }
 }
 @media screen and (min-width: 1250px) {
   .logo {
-    width: 400px;
+    max-width: 400px;
+    margin-right: 50px;
   }
 }
 
 h1 {
+  text-transform: uppercase;
   color: #81c7e1;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 40px;
-  margin: 30px 0;
+  font-size: 35px;
+  padding-bottom: 20px;
+  text-shadow: 1px 1px #133342;
+}
+@media screen and (min-width: 1250px) {
+  h1 {
+    font-size: 40px;
+    padding: 0;
+  }
 }
 
 .intro_kouc_box {
@@ -74,21 +90,35 @@ h1 {
   }
 }
 
+.div_backqround {
+  background-color: #e0a006;
+  max-width: 700px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#intro_text {
+  font-size: 22px;
+  text-align: justify;
+}
+
 .intro_div_onekouc {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .into_div_onekouc_name {
-  color: #e0a006;
+  color: #ffffff;
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 10px;
-  margin-left: 50px;
+  text-align: center;
 }
 
 .foto_kouc_circle {
   border-radius: 50%;
-  border: 2px solid #e0cfa7;
+  border: 2px solid #ffffff;
   max-width: 150px;
   display: block;
   margin-right: auto;
@@ -108,6 +138,10 @@ h1 {
   text-align: end;
   margin-right: 50px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.into_div_onekouc_web:hover {
+  color: #e0a006;
 }
 
 footer {
